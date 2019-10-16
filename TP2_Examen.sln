@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Web", "UI.Web\UI.Web.csproj", "{5C4172D0-422D-4420-9858-B1536CD13862}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Logic", "Business.Logic\Business.Logic.csproj", "{B58333C0-BE3F-4D02-8F88-1E3F7D4B57E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18D1C50F-58E0-4D94-B05B-4A95A146E6BB} = {18D1C50F-58E0-4D94-B05B-4A95A146E6BB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{EEC8043C-EB14-4DE1-89F4-8F371F64DEBC}"
 EndProject
